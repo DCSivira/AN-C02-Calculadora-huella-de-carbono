@@ -18,7 +18,7 @@ El texto y el contenido de las opciones se editan directamente desde el objeto *
 **Pregunta 2 - Cuántas personas viven contigo**
  * 1 = 0.5
  * 2 = 0.67
- * 3 = 0
+ * 3 = 1
  * 4 o más = 1.25
 
 **Pregunta 3 - ¿Qué tipo de transporte utilizas regularmente?**
