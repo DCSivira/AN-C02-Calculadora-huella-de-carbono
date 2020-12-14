@@ -39,5 +39,5 @@ El texto y el contenido de las opciones se editan directamente desde el objeto *
  * Una vez al año = 1305
  * Ninguna vez = 0
  
- **Total-c02** = ( pregunta1 * pregunta2 + pregunta3 + pregunta4 + pregunta5 ) // 1000
- **total-árboles**  = total-co2 // 2
+ **Total-c02** = ( pregunta1 * pregunta2 + pregunta3 + pregunta4 + pregunta5 ) / 1000  
+ **Total-árboles** = Total-co2 ÷ 2
