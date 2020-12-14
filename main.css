@@ -1,0 +1,240 @@
+body {
+	margin: 0;
+}
+
+#calc-co2-content-title {
+	color: #2b7c2d; 	
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+}
+
+#calc-co2-content-description {
+	padding-top: 20px;
+	color: #565656; 	
+	font-weight: 400;
+	text-align: center;
+}
+
+#calc-co2-generic-description {
+	padding-top: 20px;
+	color: #565656; 	
+	font-weight: 400;
+	text-align: center;
+}
+
+#calc-co2-content-initial {
+	padding-top: 10px;
+	color: #2b7c2d; 	
+	font-weight: 400;
+	text-align: center;
+}
+
+#calc-co2-content-final {
+	color: #565656; 	
+	text-align: center;
+}
+
+#calc-co2-final-link{
+	text-decoration: none;
+	color: white;
+}
+
+#calc-co2-final-link:hover{
+	color: #2b7c2d; 	
+}
+
+#calc-co2-content-options {
+	padding-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#calc-co2-trees-count {
+	display: flex;
+	justify-content: center;
+}
+
+#calc-co2-back-button {
+	color: #2b7c2d;
+	margin-left: -5px;
+	margin-top: 5px;
+	transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+#calc-co2-back-button:hover {
+	color: white;
+}
+
+.calc-co2-content-button {
+	background-color: #2b7c2d;
+	color: white;
+	border: solid 2px #2b7c2d;
+	padding: 2px 5px 2px 5px;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: center;
+	margin: 5px;
+	flex: 1 1 0px;
+	flex-direction: column;
+	z-index: 999999;
+	transition: background-color 0.5s, color 0.5s, border-color 0.5s;
+}
+
+.calc-co2-content-button:hover {
+	background-color: white;
+	color: #2b7c2d;
+	border: solid 2px white;
+	cursor: pointer;
+}
+
+.calc-co2-button-content {
+	display: flex;
+}
+
+.calc-co2-button-icon {
+	display: flex;
+	justify-content: center;
+}
+
+.calc-co2-icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-grow: 4;
+}
+
+.calc-co2-trees-icon {
+	padding: 5px 0px 5px 0px;
+	color: #2b7c2d;
+}
+
+.calc-co2-button-title {
+	padding-top: 3px;
+	flex-grow: 1;
+}
+
+.calc-co2-main-title {
+	color: white;
+	font-weight: 400;
+	font-size: 40px;
+	text-align: center;
+}
+
+.calc-co2-main-box {
+	background-color: rgba(225, 225, 225, 0.6);
+	width: 280px;
+	height: 280px;
+	margin-top: 20px;
+	padding: 0px 9px;
+}
+
+.calc-co2-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 300px;
+}
+
+.calc-co2-background{
+	font-family: Montserrat;
+	background-image: url("images/carbono_480x720.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 720px;
+}
+
+/*Tablet Size*/
+@media only screen and (min-width: 481px) {
+	.calc-co2-background {
+		background-image: url("images/carbono_778x960.jpg");
+		background-repeat: repeat;
+		height: 960px;
+	}
+
+	.calc-co2-main-box {
+		width: 350px;
+		height: 412px;
+		padding: 0px 50px;
+	}
+	
+	#calc-co2-content-title {
+		font-weight: 500;
+		font-size: 60px;
+	}
+	
+	#calc-co2-content-description {
+		font-weight: 400;
+		font-size: 20px;
+	}
+	
+	#calc-co2-content-initial {
+		padding-top: 40px;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	
+	#calc-co2-content-final {
+		font-weight: 400;
+		font-size: 20px;
+	}
+	
+	#calc-co2-back-button {
+		margin-left: -45px;
+	}
+
+	.calc-co2-content {
+		padding-top: 400px;
+	}
+
+	.calc-co2-content-button {
+		padding: 5px 10px;
+		font-weight: 600;
+		font-size: 16px;
+		margin: 8px;
+		flex-grow: 1;
+	}
+	
+	.calc-co2-main-title {
+		font-weight: 500;
+		font-size: 50px;
+	}
+}
+
+/*Tablet Size on side*/
+@media only screen and (min-width: 801px) {
+	.calc-co2-background {
+		background-image: url("images/carbono_1920x990.jpg");
+		background-position: 30% 10%;
+		height: 600px;
+	}
+
+	.calc-co2-main-box {
+		height: 400px;
+		padding: 0px 50px;
+	}
+
+	.calc-co2-content {
+		padding-top: 50px;
+		margin-left: 500px;
+	}
+}
+
+/*Desktop Size*/
+@media only screen and (min-width: 1200px) {
+	.calc-co2-background {
+		background-image: url("images/carbono_1920x990.jpg");
+		background-position: left top;
+		height: 600px;
+	}
+	
+	.calc-co2-main-box {
+		height: 412px;
+	}
+
+	.calc-co2-content {
+		padding-top: 30px;
+		margin-left: 600px;
+	}
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Calculadora de Huella de Carbono</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="main.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="calc-co2-background">
+			<div class="calc-co2-content">
+				<div class="calc-co2-main-title"> CALCULA TU HUELLA </div>
+				<div class="calc-co2-main-box">
+					<div style="height: 30px;">
+						<div id="calc-co2-back-button" onclick="co2CalcPrevStage()" >
+							<i class="fa fa-chevron-circle-left fa-2x" aria-hidden="true"></i>
+						</div>
+					</div>
+					<div id="calc-co2-content-title"></div>
+					<div id="calc-co2-content-description"></div>
+					<div id="calc-co2-content-initial">
+						<div><b>Descubre el impacto que tienes en el ambiente.</b></div>
+						<div style="padding: 10px 10px;"class="calc-co2-content-button calc-co2-edge-button">CALCULA TU HUELLA</div>
+					</div>
+					<div id="calc-co2-content-final">
+						<div>
+							¡Con tu estilo de vida emites<br /> <b><span id="co2-calc-totals"></span> kg CO2/año</b> al año!
+						</div>
+						<br />
+						<div>
+							Es decir que le debes al planeta </br> <b><span id="co2-trees-totals"></span> <span id="text-trees-count"></span></b>. 
+							<div id="co2-calc-trees-count"></div>
+						</div>
+						<div style="padding: 10px 10px;" class="calc-co2-content-button" >
+							<a id="calc-co2-final-link" href="http://ancon.org/alianza/#donar" target="_blank">Comienza sembrando un árbol</a>
+						</div>
+					</div>
+					<div id="calc-co2-content-options"></div>
+				</div>
+			</div>				
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
