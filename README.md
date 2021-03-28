@@ -2,7 +2,7 @@
 
 Implementación de la calculadora para el cálculo de la huella de carbono.
 
-* El archivo wordpress.css contiene el estilo a agregar en la configuración global de Wordpress. Se usa para hacer funcionar la calculadora al ser implementada en el sitio mediante un iframe con un campo de texto. **Obligatoriamente, para evitar problemas del touch en ciertos dispositivos, el campo de texto debe estar configurado para tener una única columna.**
+* El archivo wordpress.css contiene el estilo a agregar en la configuración global de Wordpress. Se usa para hacer funcionar la calculadora al ser implementada en el sitio mediante un iframe con un campo de texto. **Obligatoriamente, para evitar problemas del touchscreen en ciertos dispositivos táctiles, el campo de texto debe estar configurado para tener una única columna.**
 
 * Para editar los textos de la primera y última vista de la calculadora hay que editar el archivo *index.html*.
 
